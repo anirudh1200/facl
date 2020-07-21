@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/bin/node /home/anirudh1200/.yarn/bin/yarn.js init
+
+PATH: 
+  /home/anirudh1200/.yarn/bin:/home/anirudh1200/.config/yarn/global/node_modules/.bin:/home/anirudh1200/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-11-oracle/bin:/usr/lib/jvm/java-11-oracle/db/bin:/home/anirudh1200/go/bin:/home/anirudh1200/Android/Sdk/emulator:/home/anirudh1200/Android/Sdk/tools:/home/anirudh1200/Android/Sdk/tools/bin:/home/anirudh1200/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.21.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/anirudh1200/.yarn/lib/cli.js:137008:13)
+      at Interface.emit (events.js:198:13)
+      at Interface._ttyWrite (readline.js:801:16)
+      at ReadStream.onkeypress (readline.js:184:10)
+      at ReadStream.emit (events.js:198:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1073:36)
+      at ReadStream.emit (events.js:198:13)
+      at addChunk (_stream_readable.js:288:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
