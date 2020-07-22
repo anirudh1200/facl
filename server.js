@@ -19,9 +19,7 @@ mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true, u
 	.catch(console.log);
 
 // MIDDLEWARE
-app.use(bodyParser.urlencoded({
-	extended: true
-}));
+app.use(bodyParser.json());
 app.use(logger('dev'));
 
 // ROUTES

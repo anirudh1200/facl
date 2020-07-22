@@ -1,6 +1,5 @@
 const isEmpty = (string) => {
 	if (!string) return true;
-	else if (string.trim() === '') return true;
 	else return false;
 }
 
@@ -12,7 +11,7 @@ const isEmail = (email) => {
 
 const isPhone = (phone) => {
 	const regEx = /^\d{10}$/;
-	if(phone && phone.match(regEx)) return true;
+	if(phone && phone.toString().match(regEx)) return true;
 	else return false;
 }
 
